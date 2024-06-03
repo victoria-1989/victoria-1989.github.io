@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/564x/40/85/e3/4085e3405455adefa219d21a4547a1fc.jpg');
+    background-size: contain;
+    background-position: center;
+    color: white;
+    text-align: center; /* Centre tout le contenu horizontalement */
+}
+
+h1 {
+    color: #ff00ff; /* Rose fluo */
+    font-size: 90px;
+    margin-top: 20px;
+    font-family: "DejaVu Sans Mono", monospace;
+    text-shadow: 2px 2px 4px black; /* Ajoute un contour noir */
+}
+
+iframe {
+    display: block;
+    margin: 20px auto; /* Centre l'iframe horizontalement avec une marge en haut et en bas */
+    max-width: 100%; /* Assure que l'iframe n'est pas plus large que son conteneur */
+}
+
+/* Règle pour tous les éléments de texte sauf le titre */
+body *:not(h1) {
+    color: black; /* Changement de la couleur du texte à noir */
+    font-size: 24px; /* Ajustement de la taille de police */
+    font-weight: bold; /* Met en gras tous les éléments de texte sauf le titre */
+}
